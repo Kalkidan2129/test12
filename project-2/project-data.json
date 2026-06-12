@@ -65,49 +65,49 @@
     "category": "Business Intelligence",
     "industry": "Healthcare",
     "generationSource": "ai",
-    "portfolioSummary": "Developed a dynamic Power BI dashboard integrating healthcare insurance data from SQL Server to enable strategic business insights. Created customizable visualizations and key metrics to support data-driven decision making.",
-    "summary": "This project involved building a comprehensive Power BI dashboard using healthcare insurance data sourced from SQL Server databases. The dashboard features customizable visualizations and calculated measures designed to provide quick, actionable insights for strategic business planning. The solution enables users to explore data through interactive slicers, cards, pie charts, and stacked bar charts.",
-    "businessProblem": "Healthcare insurance data volumes are rapidly increasing, making it challenging to extract timely and meaningful insights for strategic planning. Traditional reporting methods often lack flexibility and interactivity, limiting the ability to explore data and uncover key trends. There was a need for a self-service BI solution that could streamline data visualization and metric creation.",
+    "portfolioSummary": "Developed a dynamic Power BI dashboard integrating healthcare insurance data from SQL Server to enable strategic business insights. Created customizable visualizations and metrics to support data-driven decision making in healthcare insurance.",
+    "summary": "This project involved building a comprehensive Power BI dashboard using healthcare insurance data sourced from SQL Server databases. The dashboard features customizable visualizations such as slicers, cards, pie charts, and stacked bar charts, designed to provide actionable insights for strategic business planning. The project emphasizes creating proper metrics using DAX and effective data storytelling through visual elements.",
+    "businessProblem": "Healthcare insurance data is rapidly expanding, making it challenging to extract timely and meaningful insights for strategic planning. Organizations require an efficient self-service BI solution to visualize and analyze complex datasets to support decision-making processes. Without such tools, identifying key trends and metrics in insurance data can be slow and error-prone.",
     "objectives": [
       "Connect and import healthcare insurance data from SQL Server into Power BI.",
-      "Create interactive and customizable visualizations to represent key business metrics.",
-      "Enable users to explore data dynamically for improved strategic decision making."
+      "Create accurate and meaningful measures using DAX to quantify key metrics.",
+      "Design interactive and customizable visualizations to facilitate data exploration."
     ],
     "tools": [
       "Power BI Desktop",
       "SQL Server Management Studio",
-      "T-SQL",
-      "Data Analysis Expressions (DAX)",
+      "SQL Server",
+      "DAX (Data Analysis Expressions)",
       "Power BI Service",
       "Microsoft Windows OS"
     ],
     "skills": [
       "Data connection and integration",
-      "Dashboard design and layout",
-      "DAX measure creation",
-      "Data visualization best practices",
-      "SQL querying and data preparation",
-      "Interactive report development",
-      "Business requirements analysis",
-      "Data storytelling"
+      "SQL querying and database management",
+      "Data modeling and measure creation with DAX",
+      "Dashboard design and visualization",
+      "Business intelligence reporting",
+      "Data storytelling",
+      "Self-service analytics",
+      "User interface customization"
     ],
     "workflow": [
-      "Connect to SQL Server and execute T-SQL scripts to prepare the data mart.",
-      "Import required tables from SQL Server into Power BI Desktop.",
-      "Create custom DAX measures to calculate key metrics like distinct member counts.",
-      "Design and add interactive visualizations including slicers, cards, pie charts, and stacked bar charts.",
-      "Finalize dashboard layout with images, company branding, and color themes."
+      "Connect to SQL Server and execute scripts to create data marts.",
+      "Import selected tables from SQL Server into Power BI Desktop.",
+      "Create custom measures using DAX for key performance indicators.",
+      "Build interactive visualizations including slicers, cards, pie charts, and bar charts.",
+      "Finalize dashboard layout with images, color themes, and company branding."
     ],
     "keyInsights": [
-      "Power BI supports seamless integration with SQL Server for efficient data import.",
-      "Custom DAX measures enable precise aggregation and calculation of healthcare metrics.",
-      "Interactive slicers and visualizations facilitate dynamic data exploration.",
-      "Effective dashboard design focuses on storytelling with only the most relevant visual elements."
+      "Power BI enables quick integration of large healthcare insurance datasets from SQL Server.",
+      "Custom DAX measures provide precise aggregation and counting of members and plans.",
+      "Interactive slicers and visual elements enhance user-driven data exploration.",
+      "Effective dashboard design tells a clear business story aligned with reporting requirements."
     ],
     "businessImpact": [
-      "Accelerated data-driven decision making through interactive and customizable dashboards.",
-      "Improved visibility into healthcare insurance metrics supporting strategic planning.",
-      "Reduced reliance on static reports, enabling self-service analytics for business users."
+      "Accelerated strategic decision-making through timely, visual insights into insurance data.",
+      "Improved data accessibility for business users via self-service BI tools.",
+      "Enhanced reporting accuracy and consistency with standardized metrics and visualizations."
     ],
     "imageUrl": "http://app.colaberry.com/uploads/ProjectRequest/29962/Image_and_Logos.png"
   }
