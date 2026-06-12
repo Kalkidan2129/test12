@@ -1,8 +1,6 @@
 
 # Air Traffic Control Awareness and Wildlife Strikes
 
-<img src="./screenshots/preview.png" width="100%" style="border-radius:10px;">
-
 ---
 
 ## Project Overview
