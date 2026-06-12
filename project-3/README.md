@@ -1,8 +1,6 @@
 
 # Air Traffic Control Awareness and Wildlife Strikes
 
----
-
 ## Project Overview
 
 It's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.
