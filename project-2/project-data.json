@@ -1,0 +1,114 @@
+{
+  "title": "Power BI Dashboard with Healthcare Data",
+  "description": "Healthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL  Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help  you build out proper metrics, and corresponding visualizations.",
+  "tags": [
+    "PowerBI",
+    "Insurance",
+    "SQL Server",
+    "Reporting"
+  ],
+  "imageUrl": "http://app.colaberry.com/uploads/ProjectRequest/29962/Image_and_Logos.png",
+  "stepByStepLink": "#/network/96/projectsteps",
+  "tasksLink": "",
+  "stepByStepContent": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How Does a Completed Dashboard Look?\nDetailed Instructions:\n\nDashboard\n\nFinalize the layout by adding and placing Images  that represent the entities and process(es)  involved in the business process that the report is based off of. Usually this involves a  Transaction, a Location, People, and a Service/Product.  In our case, three dimension tables were involved (Groups, Members, Plans) as well as one Fact table (Memberships). Be sure to also add an Image of the company logo and  a text box to display the company name. Finally, add a color theme to the report visualizations. Here the ‘Electric’ color theme was implemented to match the colors of the company logo. \n\nInsight: \n\nPower BI Dashboards should be designed to tell a story through visualizations and contain only the most important elements according to the BRD\n\nhttps://www.youtube.com/watch?v=Y4sRWbo8JcE&t=5s\n\nDid you complete the Project?",
+  "allStepDetails": [
+    {
+      "stepNumber": 1,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create the Data Mart– From T-SQL Script\nDetailed Instructions:\n\nPower BI supports large range of data sources. You can click \"Get Data\" and it shows you all the available data connections. It allows you to connect to different flat files, SQL database, and Azure cloud or even web platforms such as Facebook, Google Analytics, and Salesforce objects.\n\n \n\nOn this project the Data Source is SQL Server to load the data into Power BI \n\n \n\nOpen SQL Server Management Studio and connect to proper SQL Server instance using the appropriate SQL Server authentication credentials.\n\n \n\nOpen a New Query window. Execute the script provided with the .sql file to create the [HealthCare Insurance] Data Mart. The [HealthCare Insurance] Data Mart stores historical data relating to membership enrollment.\n\nThe image below displays the Database Diagram that corresponds with the HealthCare Insurance Data Mart. This displays the one-to-many relationships between the [Fact HealthCare] table and the related dimension tables. \n\nInsight: \n\n  Download Power BI, if not installed. \n\nhttps://powerbi.microsoft.com/en-us/get-started/?&OCID=AID719832_SEM_M2kNt4pL&lnkd=Google_PowerBI_Brand&gclid=Cj0KCQjw1pblBRDSARIsACfUG11CaX5Dpn0-vx8ucUtHhNGUQWbZB4plK5ef_wcdkUF5wtPT1hG8MzkaAmeTEALw_wcB"
+    },
+    {
+      "stepNumber": 2,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Upload Data Mart From SQL Server Into Power BI\nDetailed Instructions:\n\n Open Power BI Desktop click on \"Get Data\"\n\nSelect SQL Server and the below window will open\n\n \n\nFill in the below information to direct Power BI on where to import the dataset from.\n\n \n\nOnce you select the database Power BI will import the tables as below\n\nAbove is the preview of the tables selected for the report dataset.\n\n \n\nSelect the tables required for your reports\n\nThen click on “Load”. \n\n \n\nInsight: \n\n  Save a copy of the report on your computer as a .PBIX file. \n\n  https://www.youtube.com/watch?v=Qgam9M8I0xA"
+    },
+    {
+      "stepNumber": 3,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create and Use Your Own Measures\nDetailed Instructions:\n\nHow to Create and use your own measures\n\nWith Power BI Desktop, you can create your own measures with the Data Analysis Expressions (DAX) formula language, any field that appears with a sigma icon  is numeric, and its values can be aggregated, Sum is the default aggregation for a numeric datatype, but you can easily apply different aggregations like average or count. \n\nNote:  Actual measure for NumOfMembers below:\n\nNumOfMembers = DISTINCTCOUNT('Fact_HealthCare'[MemberKey])\n\n(Note: The above measure has been uploaded for your convenience)\n\nBelow are additional measures you may create for additional visualizations: \n\n(Note: You are not required to create measures as a file has been provided along with final dashboard at end of presentation for your convenience)\n\nInsight: \n\nMeasures are ideal for aggregation to a value (i.e. sum, average, counts etc.)\n\n \n\n   https://www.youtube.com/watch?v=KSylKLX_OC4"
+    },
+    {
+      "stepNumber": 4,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create a Slicer\nDetailed Instructions:\n\nHow to create a Slicer:\n\n***Please  move to a vacant area on your canvas when creating a new visualization for your dashboard***\n\nNote: Hover over top right corner of box to un-hide caret\n\nInsight: \n\n  \n\n        https://www.youtube.com/watch?v=m0wOf8XttgU"
+    },
+    {
+      "stepNumber": 5,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create a Card\nDetailed Instructions:\n\nHow to Create a Card:\n\n***Please  move to a vacant area on your canvas when creating a new visualization for your dashboard***\n\nInsight: \n\nA Card is ideal when a single number is important (i.e. total sales, total ytd etc.\n\n \n\n   https://www.youtube.com/watch?v=xmja6EpqaO0"
+    },
+    {
+      "stepNumber": 6,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create a Pie Chart\nDetailed Instructions:\n\nHow to Create a Pie Chart:\n\n***Please  move to a vacant area on your canvas when creating a new visualization for your dashboard***\n\n \n\nInsight: \n\nPie Charts are useful to visualize High level data (i.e. Sales by Region, Product etc.)\n\n \n\n \n\n   https://www.youtube.com/watch?v=e2r3REzXHLg"
+    },
+    {
+      "stepNumber": 7,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create a Stacked Bar Chart\nDetailed Instructions:\n\nHow to Create a Stacked Bar Chart:\n\n***Please  move to a vacant area on your canvas when creating a new visualization for your dashboard***\n\nInsight: \n\nStacked Bar Charts display values (i.e. sum, counts etc.) and groups along the X-axis and Y-axis\n\n \n\n     https://www.youtube.com/watch?v=hsPPKZnmnjM"
+    },
+    {
+      "stepNumber": 8,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create a Stacked Bar Chart\nDetailed Instructions:\n\nHow to Create a Stacked Bar Chart:\n\n***Please  move to a vacant area on your canvas when creating a new visualization for your dashboard***\n\nInsight: \n\nStacked Bar Charts display values (i.e. sum, counts etc.) and groups along the X-axis and Y-axis\n\n \n\n     https://www.youtube.com/watch?v=hsPPKZnmnjM"
+    },
+    {
+      "stepNumber": 9,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How to Create a Funnel Chart\nDetailed Instructions:\n\nHow to Create a Funnel Chart:\n\n***Please  move to a vacant area on your canvas when creating a new visualization for your dashboard***\n\n \n\nInsight: \n\nFunnel charts allow you to see difference between values/groups (i.e. age groups, sale process etc)\n\n \n\n   https://www.youtube.com/watch?v=TAxk5ddLBno"
+    },
+    {
+      "stepNumber": 10,
+      "content": "Power BI Dashboard with Healthcare Data\nHealthcare insurance data is growing and growing but delivering quick insight for strategic business planning may not be a easy task. With the combination of power bi self service platform and SQL Server databases you'll be on the right path to new data discoveries!! Follow this step by step tutorial on how to create the best customizable visualizations with endless discovery possibilities. This guide will help you build out proper metrics, and corresponding visualizations.\nStep Name:How Does a Completed Dashboard Look?\nDetailed Instructions:\n\nDashboard\n\nFinalize the layout by adding and placing Images  that represent the entities and process(es)  involved in the business process that the report is based off of. Usually this involves a  Transaction, a Location, People, and a Service/Product.  In our case, three dimension tables were involved (Groups, Members, Plans) as well as one Fact table (Memberships). Be sure to also add an Image of the company logo and  a text box to display the company name. Finally, add a color theme to the report visualizations. Here the ‘Electric’ color theme was implemented to match the colors of the company logo. \n\nInsight: \n\nPower BI Dashboards should be designed to tell a story through visualizations and contain only the most important elements according to the BRD\n\nhttps://www.youtube.com/watch?v=Y4sRWbo8JcE&t=5s\n\nDid you complete the Project?"
+    }
+  ],
+  "category": "",
+  "industry": "",
+  "tools": [],
+  "skills": [],
+  "portfolioSummary": "",
+  "keyInsights": [],
+  "businessImpact": [],
+  "portfolioContent": {
+    "title": "Power BI Dashboard with Healthcare Data",
+    "category": "Business Intelligence",
+    "industry": "Healthcare",
+    "generationSource": "ai",
+    "portfolioSummary": "Developed a dynamic Power BI dashboard integrating healthcare insurance data from SQL Server for strategic business insights. Created customizable visualizations and key metrics to support data-driven decision making.",
+    "summary": "This project involved building a comprehensive Power BI dashboard using healthcare insurance data sourced from SQL Server databases. The dashboard features custom measures, slicers, and various visualizations designed to provide actionable insights for strategic planning. The step-by-step approach ensures effective data mart creation, data import, and visualization best practices.",
+    "businessProblem": "Healthcare insurance data is rapidly expanding, making it challenging to extract timely and meaningful insights for strategic business planning. Traditional reporting methods often lack the flexibility and interactivity needed to explore data effectively. There is a need for a self-service BI solution that enables quick discovery and visualization of key healthcare metrics.",
+    "objectives": [
+      "Connect and import healthcare insurance data from SQL Server into Power BI.",
+      "Create custom measures and interactive visualizations to highlight key metrics.",
+      "Develop a user-friendly dashboard that supports strategic decision-making."
+    ],
+    "tools": [
+      "Power BI Desktop",
+      "SQL Server Management Studio",
+      "T-SQL",
+      "Data Analysis Expressions (DAX)",
+      "Power BI Service",
+      "Microsoft Windows OS"
+    ],
+    "skills": [
+      "Data modeling",
+      "SQL querying",
+      "Dashboard design",
+      "Data visualization",
+      "DAX formula creation",
+      "Business intelligence reporting",
+      "Data mart development",
+      "Self-service BI"
+    ],
+    "workflow": [
+      "Create data mart using T-SQL scripts in SQL Server.",
+      "Import healthcare data tables into Power BI Desktop.",
+      "Define custom measures using DAX language.",
+      "Build interactive visualizations including slicers, cards, pie charts, and bar charts.",
+      "Finalize dashboard layout with branding and color themes."
+    ],
+    "keyInsights": [
+      "Power BI enables seamless integration of SQL Server healthcare data for robust reporting.",
+      "Custom DAX measures allow precise aggregation and counting of healthcare members.",
+      "Interactive slicers and charts facilitate dynamic data exploration and storytelling.",
+      "Visualizations should focus on key metrics aligned with business requirements for clarity."
+    ],
+    "businessImpact": [
+      "Accelerated access to actionable healthcare insurance insights for strategic planning.",
+      "Improved data-driven decision making through interactive and customizable dashboards.",
+      "Enhanced reporting efficiency by leveraging self-service BI capabilities."
+    ],
+    "imageUrl": "http://app.colaberry.com/uploads/ProjectRequest/29962/Image_and_Logos.png"
+  }
+}

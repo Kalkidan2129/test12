@@ -1,0 +1,124 @@
+{
+  "title": "Air Traffic Control Awareness and Wildlife Strikes",
+  "description": "It's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.",
+  "tags": [
+    "Data Analytics",
+    "PowerBI",
+    "Microsoft office",
+    "Transport",
+    "SQL Server",
+    "Reporting"
+  ],
+  "imageUrl": "https://app.colaberry.com/uploads/ProjectRequest/32503/Final_Pic.JPG",
+  "stepByStepLink": "#/network/302/projectsteps",
+  "tasksLink": "",
+  "stepByStepContent": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Warned Pilot % by State\nDetailed Instructions:\n\nSTEP 2: Create the Legend for the Map\n\nSTEP 1: Create the Map. Follow the GIF in order to complete.\n\nSTEP 2: Create the Legend for the map. This can be a bit tricky, you may have to play around with it a little bit, the most important thing is to make sure you say to bring it to the front so it becomes visible on a report.\n\nSTEP 1: Create the Map. Follow the GIF in order to complete.\n\nSTEP 2: Create the Legend for the map\n\nInsight: \nDid you complete the Project?",
+  "allStepDetails": [
+    {
+      "stepNumber": 1,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Load SQL Script for Wildlifestrikes Data to Create Data Mart\nDetailed Instructions:\n\nSTEP 1:  Load the SQL Script from the  above. You will then follow the GIF below to load into SQL Server. This process may take a bit of time. Be patient with it.\n\nI have included a Power BI file that has data already included if you didn't want to go through all this.\n\nInsight:"
+    },
+    {
+      "stepNumber": 2,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Load Power BI Data\nDetailed Instructions:\n\nSTEP 1: Follow GIF below to add Data to Power BI.\n\nGood luck in creating this project!!\n\nInsight: \n\nHow to download Power BI."
+    },
+    {
+      "stepNumber": 3,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Logo and Title for Project\nDetailed Instructions:\n\nSTEP 1: Download the images needed to create this step from the   above. \n\nSTEP 2: Create the Colaberry Logo. Click Insert inside the top toolbar, select image, find the Colaberry logo and select. \n\nSTEP 3: Format size and location of Colaberry Logo. The image displays what should be in the General tab.\n\nSTEP 4: Create the Airplane Logo. Click Insert at inside the top toolbar, select image, find the Airplane Logo and select. Format of this will also be done in this step. \n\nSTEP 5: Create the Birds Logo. Click Insert at inside the top toolbar, select image, find the Birds Logo and select. Format of this will also be done in this step. \n\nSTEP 6: Create the Title for our dashboard. Click Insert then text box, select the font size as 24 then center the alignment, next you will format the size and location of the text box, finally format the background. \n\nAll steps are shown in the GIF below.\n\nInsight:"
+    },
+    {
+      "stepNumber": 4,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Creating 3 Slicers\nDetailed Instructions:\n\nSTEP 1: Create the Year, Quarter, Month Slicer. Choose the slicer visualization, next choose Year, Quarter, Month from the Date Hierarchy columns, then hover over the dropdown arrow to the top right of the slicer and choose dropdown.\n\nSTEP 2: Create Phase of Flight Slicer. This is illustrated by using a GIF, follow along to create this slicer. You will copy and paste the previous slicer. Ctrl C to copy and Ctrl V to paste.\n\nSTEP 3: Create the Region Slicer. This is illustrated by using a GIF, follow along to create this slicer. You will copy and paste the previous slicer. Ctrl C to copy and Ctrl V to paste.\n\nSTEP 1: Create the Year, Quarter, Month Slicer. Choose the slicer visualization, next choose Year, Quarter, Month from the Date Hierarchy columns, then hover over the dropdown arrow to the top right of the slicer and choose dropdown.\n\nSTEP 2: Create Phase of Flight Slicer. This is illustrated by using a GIF, follow along to create this slicer.\n\n \n\nSTEP 4: Create the Region Slicer. This is illustrated by using a GIF, follow along to create this slicer.\n\n \n\nInsight:"
+    },
+    {
+      "stepNumber": 5,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Creating Total Deaths and Total Injuries Cards\nDetailed Instructions:\n\nSTEP 1: We will be creating the Total Deaths Card.\n\nSTEP 2: Create the Total Injuries Card. Copy and Paste the Total Deaths Card by using Ctrl C to copy and Ctrl V to paste.\n\nSTEP 1: We will be creating the Total Deaths Card. This one will also include the borders for Slicers as well because I forgot.\n\nSTEP 2: Create the Total Injuries Card. Copy and Paste the Total Deaths Card by using Ctrl C to copy and Ctrl V to paste.\n\nInsight:"
+    },
+    {
+      "stepNumber": 6,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Data Modeling Column and Rows\nDetailed Instructions:\n\nSTEP 1: I will be doing some cleaning up of the columns throughout the project. I do not expect you to do all these, so I have included a Power BI dashboard in the next Step Name that includes all the measures as well. We will be creating measures in the next step. In this GIF we will be adjusting the null value in EFFECT to Unknown.\n\nDemonstration of how to change values in Power BI.\n\nInsight:"
+    },
+    {
+      "stepNumber": 7,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Creating Measure for the Project\nDetailed Instructions:\n\nSTEP 1: In the GIF below you will see how to create the .Warned Pilots. This is the main measure for our main KPI.\n\nSTEP 2: Download the Wildlife Data Model Dashboard from and begin to use that for the rest of the project. If you would like to create the measure on your own there is a Word Document that is inside the zip file.\n\nInsight:"
+    },
+    {
+      "stepNumber": 8,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Creating Measure for the Project\nDetailed Instructions:\n\nSTEP 1: In the GIF below you will see how to create the .Warned Pilots. This is the main measure for our main KPI.\n\nSTEP 2: Download the Wildlife Data Model Dashboard from and begin to use that for the rest of the project. If you would like to create the measure on your own there is a Word Document that is inside the zip file.\n\nInsight:"
+    },
+    {
+      "stepNumber": 9,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Report How are we performing by Month?\nDetailed Instructions:\n\nSTEP 1: Create Report 1, How are we performing by Month. This report will show us how we are improving month over month.\n\nSTEP 1: Create Report 1 How are we performing by Month. This report will show us how we are improving month over month.\n\nInsight:"
+    },
+    {
+      "stepNumber": 10,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Report Warned Pilots by Damage Level and by Time of Day\nDetailed Instructions:\n\nSTEP 1: Create Report 2, Warned Pilot % by Damage Level and Time of Day. Follow the GIF to create this report.\n\nSTEP 1: Create Report 2, Warned Pilot % by Damage Level and Time of Day. Follow the GIF to create this report.\n\nForgot to cut Title to the Legend off. Follow steps below.\n\nInsight:"
+    },
+    {
+      "stepNumber": 11,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Area Chart Warned Pilot % by Deaths and Injuries\nDetailed Instructions:\n\nSTEP 1: Create the Warned Pilot %, Death and Injuries Area Chart. Follow along with the GIF to complete. You will copy and paste report 2.\n\nSTEP 1: Create the Warned Pilot %, Death and Injuries Area Chart. Follow along with the GIF to complete. You will copy and paste report 2.\n\n \n\nInsight:"
+    },
+    {
+      "stepNumber": 12,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Warned Pilot % by State\nDetailed Instructions:\n\nSTEP 2: Create the Legend for the Map\n\nSTEP 1: Create the Map. Follow the GIF in order to complete.\n\nSTEP 2: Create the Legend for the map. This can be a bit tricky, you may have to play around with it a little bit, the most important thing is to make sure you say to bring it to the front so it becomes visible on a report.\n\nSTEP 1: Create the Map. Follow the GIF in order to complete.\n\nSTEP 2: Create the Legend for the map\n\nInsight:"
+    },
+    {
+      "stepNumber": 13,
+      "content": "Air Traffic Control Awareness and Wildlife Strikes\nIt's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.\nStep Name:Create Warned Pilot % by State\nDetailed Instructions:\n\nSTEP 2: Create the Legend for the Map\n\nSTEP 1: Create the Map. Follow the GIF in order to complete.\n\nSTEP 2: Create the Legend for the map. This can be a bit tricky, you may have to play around with it a little bit, the most important thing is to make sure you say to bring it to the front so it becomes visible on a report.\n\nSTEP 1: Create the Map. Follow the GIF in order to complete.\n\nSTEP 2: Create the Legend for the map\n\nInsight: \nDid you complete the Project?"
+    }
+  ],
+  "category": "",
+  "industry": "",
+  "tools": [],
+  "skills": [],
+  "portfolioSummary": "",
+  "keyInsights": [],
+  "businessImpact": [],
+  "portfolioContent": {
+    "title": "Air Traffic Control Awareness and Wildlife Strikes",
+    "category": "machine_learning",
+    "industry": "",
+    "generationSource": "fallback",
+    "portfolioSummary": "It's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.",
+    "summary": "It's a bird! It's a plane! Ever wonder what was the cause of the Miracle on the Hudson? In this dashboard we look at what the effect of a well informed warned pilot vs. a uninformed warned pilot has in helping control damage cost, as well as keeping guests on their planes safe during flight.",
+    "businessProblem": "Organizations need clear analytics outputs that transform raw project data into actionable insights for better decision-making.",
+    "objectives": [
+      "Analyze datasets and build machine learning workflows to identify predictive patterns.",
+      "Prepare and transform data for model training, evaluation, and forecasting tasks.",
+      "Present AI and machine learning insights in a professional portfolio-ready format."
+    ],
+    "tools": [
+      "Python",
+      "Pandas",
+      "Machine Learning",
+      "Forecasting",
+      "Data Analytics"
+    ],
+    "skills": [
+      "Python",
+      "Pandas",
+      "Machine Learning",
+      "Forecasting",
+      "Data Analytics"
+    ],
+    "workflow": [
+      "Prepared and cleaned the dataset for machine learning analysis.",
+      "Explored data patterns and feature relationships.",
+      "Built predictive or analytical models using Python-based workflows.",
+      "Evaluated model performance and analytical outputs.",
+      "Documented findings and business recommendations."
+    ],
+    "keyInsights": [
+      "Prepared project data for forecasting and machine learning analysis workflows.",
+      "Identified patterns and trends that support predictive analytics and business planning.",
+      "Structured project outputs into clear analytics deliverables and reporting assets.",
+      "Presented findings in a recruiter-friendly portfolio format."
+    ],
+    "businessImpact": [
+      "Supports predictive analytics and data-driven forecasting workflows.",
+      "Improves business visibility through AI-driven trend and pattern analysis.",
+      "Demonstrates practical machine learning and predictive analytics skills."
+    ],
+    "imageUrl": "https://app.colaberry.com/uploads/ProjectRequest/32503/Final_Pic.JPG"
+  }
+}
