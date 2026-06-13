@@ -66,48 +66,48 @@
     "industry": "Healthcare",
     "generationSource": "ai",
     "portfolioSummary": "Developed a dynamic Power BI dashboard integrating healthcare insurance data from SQL Server to enable strategic business insights. Created customizable visualizations and key metrics to support data-driven decision making.",
-    "summary": "This project involved building a comprehensive Power BI dashboard using healthcare insurance data sourced from SQL Server databases. The dashboard features custom measures, slicers, and various visualizations designed to provide actionable insights for strategic planning. The step-by-step tutorial guides users through data import, metric creation, and visualization best practices.",
-    "businessProblem": "Healthcare insurance data is rapidly expanding, making it challenging for organizations to quickly extract meaningful insights for strategic business planning. Traditional reporting methods often lack flexibility and interactivity, limiting the ability to explore data effectively. There was a need for a self-service BI solution that enables users to create customizable and insightful visualizations efficiently.",
+    "summary": "This project involved building a comprehensive Power BI dashboard using healthcare insurance data sourced from SQL Server databases. The dashboard features customized visualizations and calculated measures to provide actionable insights for strategic business planning. The step-by-step approach ensured the creation of relevant metrics and effective data storytelling.",
+    "businessProblem": "Healthcare insurance data is rapidly expanding, making it challenging to extract timely and meaningful insights for strategic planning. Organizations require efficient tools to visualize and analyze this data to support decision-making processes. Without proper visualization and metrics, identifying trends and key performance indicators remains difficult.",
     "objectives": [
       "Connect and import healthcare insurance data from SQL Server into Power BI.",
-      "Create custom metrics and measures using DAX to analyze membership data.",
-      "Design interactive and visually appealing dashboards to support strategic decision making."
+      "Create custom measures and visualizations to highlight key metrics.",
+      "Design an interactive dashboard that supports data exploration and strategic insights."
     ],
     "tools": [
       "Power BI Desktop",
       "SQL Server",
-      "SQL Server Management Studio",
+      "T-SQL",
       "Data Analysis Expressions (DAX)",
       "Power BI Service",
-      "Microsoft Windows OS"
+      "Microsoft SQL Server Management Studio"
     ],
     "skills": [
-      "Data connection and integration",
-      "SQL querying and data mart creation",
-      "DAX formula development",
-      "Dashboard design and visualization",
+      "Data visualization",
+      "Dashboard design",
+      "SQL querying and data extraction",
+      "DAX measure creation",
+      "Data modeling",
+      "Business intelligence reporting",
       "Data storytelling",
-      "Self-service BI",
-      "Report customization",
-      "Business metrics development"
+      "Self-service BI"
     ],
     "workflow": [
-      "Connect to SQL Server and execute scripts to create data marts.",
-      "Import required tables into Power BI Desktop using Get Data feature.",
-      "Create custom measures and calculated fields with DAX.",
-      "Build interactive visualizations including slicers, cards, pie charts, and stacked bar charts.",
-      "Finalize dashboard layout with images, themes, and company branding."
+      "Connect to SQL Server and execute scripts to create the data mart.",
+      "Import relevant tables from SQL Server into Power BI Desktop.",
+      "Create custom DAX measures to calculate key metrics.",
+      "Build and customize visualizations including cards, pie charts, and stacked bar charts.",
+      "Design and finalize the dashboard layout with branding and color themes."
     ],
     "keyInsights": [
-      "Power BI supports seamless integration with SQL Server for efficient data import.",
-      "Custom DAX measures enable precise aggregation and analysis of healthcare membership data.",
-      "Interactive slicers and visualizations enhance user-driven data exploration.",
-      "Effective dashboard design focuses on storytelling by highlighting key business metrics."
+      "Distinct count of members provides a key metric for membership analysis.",
+      "Pie charts effectively visualize high-level data distributions such as sales by region or product.",
+      "Stacked bar charts enable comparison of grouped values across categories.",
+      "Cards highlight important single-value metrics for quick insight."
     ],
     "businessImpact": [
-      "Accelerated data-driven strategic planning through interactive dashboards.",
-      "Improved accessibility of healthcare insurance insights for business users.",
-      "Enabled scalable and customizable reporting to adapt to evolving business needs."
+      "Enabled faster, data-driven strategic planning through interactive dashboards.",
+      "Improved visibility into healthcare membership and plan data.",
+      "Facilitated self-service analytics reducing reliance on IT for reporting."
     ],
     "imageUrl": "http://app.colaberry.com/uploads/ProjectRequest/29962/Image_and_Logos.png"
   }
