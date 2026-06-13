@@ -45,7 +45,7 @@
     },
     {
       "stepNumber": 8,
-      "content": "Walmart Store Sales\nThis project dashboard assess year over year sales conducted among 45 random Walmart Stores in the US between Feb 2010 and Oct 2012. Although this was a dawn era of coming out of the great recession of 2008, these Walmart Stores have faced an impact in sales like any discount or department stores.\nStep Name:Adding Project Logos and Title for the Dashboard\nDetailed Instructions:\n\nSteps (Colaberry Logo)\n\nFrom Power BI Desktop ribbon under Insert, click on Image from Elements\nSelect the colaberry logo from the downloadable file provided in this project\nUnder the Visualizations pane , click on General and fill in the figures provided below\n\n          Size: Height=73, Width=205\n          Position: Horizontal=0, Vertical=7\n\nSteps (Walmart Logo)\n\nFrom Power BI Desktop ribbon under Insert, click on Image from Elements\nSelect the Walmart logo from the downloadable file provided in this project\nUnder the Visualizations pane, Image, Style, and Scaling select the Fill option from the dropdown \n\n Click on General and fill in the figures provided below\n\n          Size: Height=73, Width=205\n          Position: Horizontal=1075, Vertical=8\n\nSteps (Title)\n\nFrom Power BI Desktop ribbon under Insert, click on Text box from Elements\nType in 'Walmart Store Sales (Feb 2010 - Oct 2012)' in the text box\nSelect center alignment for the text (Font = Segoe(bold), Font size = 28, Font Color = #4184C5) \n Click on General and under properties, fill in the figures provided below\n          Size: Height=73, Width=1279\n          Position: Horizontal=1, Vertical=7\nClick on Format from Power Bi Desktop, Select Send Backward tab, and click on Send to back button\n\n \n\nSave after you're done \n\nInsight: \nUsing IMAGES in Power BI"
+      "content": "Walmart Store Sales\nThis project dashboard assess year over year sales conducted among 45 random Walmart Stores in the US between Feb 2010 and Oct 2012. Although this was a dawn era of coming out of the great recession of 2008, these Walmart Stores have faced an impact in sales like any discount or department stores.\nStep Name:Create DAX measures\nDetailed Instructions:\n\nSteps \n\nSelect the Walmart Table under the fields pane by clicking on it \nFrom Power BI desktop ribbon, Home tab click on New measure \nThe formula bar appears along the top of the report canvas. \n Fill in all the DAX formulas provided below, one at a time, and when you finish Press Enter or select Commit (checkmark icon) in the formula bar.  \n\nAfter creating each measure choose the necessary format and decimal for each value (measure)\nSave\n\nDAX Formulas\n\nTotal Sales = SUM(Walmart[Weekly_Sales])\n\n \n\nSales Per Month = DIVIDE([Total Sales],DISTINCTCOUNT('Calendar'[Month Name Short]),0)+0\n\n \n\nAVG Sales = AVERAGE(Walmart[Weekly_Sales])\n\n \n\nSales YOY =\n\nVAR PYSales =\n\nCALCULATE([AVG Sales], DATEADD('Calendar'[Date],-1,YEAR))\n\nRETURN\n\nIF(ISBLANK(PYSales),0,DIVIDE(([AVG Sales]-PYSales),PYSales))          \n\n \n\nAVG CPI = AVERAGE(Walmart[CPI])\n\n \n\nCPI YOY =\n\nVAR LYCPI =\n\nCALCULATE([AVG CPI],DATEADD('Calendar'[Date],-1,YEAR))\n\nRETURN\n\nIF(ISBLANK(LYCPI),0,DIVIDE(([AVG CPI]-LYCPI),LYCPI))  \n\n \n\nArrow YOY% = SWITCH(TRUE(), [.Sales YOY] <0, UNICHAR(9662),[.Sales YOY] =0, UNICHAR(9666), UNICHAR(9652))\n\nArrow YOY CPI = SWITCH(TRUE(), [.CPI YOY] <0, UNICHAR(9662),[.CPI YOY] =0, UNICHAR(9666), UNICHAR(9652))\n\nFormats\n\nTotal Sales = Currency, Decimals = 2\nSales per Month = Currency, Decimals = 2\nAVG Sales = Currency, Decimals = 2\nSales YOY = Percentage, Decimals = 2\nAVG CPI = Currency, Decimals = 2\nCPI YOY = Percentage, Decimals = 2\nArrow YOY% = Text\nArrow YOY CPI = Text\n\nInsight: \nDAX Formulas & Creating Measures"
     },
     {
       "stepNumber": 9,
@@ -84,51 +84,48 @@
     "category": "Retail Analytics",
     "industry": "Retail",
     "generationSource": "ai",
-    "portfolioSummary": "Developed a comprehensive Power BI dashboard analyzing year-over-year sales across 45 Walmart stores from 2010 to 2012. Delivered actionable insights on sales trends during the post-recession recovery period.",
-    "summary": "This project involved creating a detailed sales dashboard for 45 Walmart stores in the US, covering data from February 2010 to October 2012. Using Power BI, the analysis focused on year-over-year sales performance, incorporating factors like holiday periods and unemployment rates to understand their impact on sales. The dashboard enabled visualization of sales trends during a critical economic recovery phase.",
-    "businessProblem": "Walmart stores, like many discount retailers, experienced fluctuating sales during the recovery from the 2008 recession. Understanding these sales patterns was essential to identify growth opportunities and challenges faced by stores in different periods. The business needed a clear, data-driven view of sales trends to optimize strategies and improve performance.",
+    "portfolioSummary": "Analyzed year-over-year sales data from 45 Walmart stores across the US using Power BI. Developed a comprehensive dashboard to visualize sales trends during the post-recession period from 2010 to 2012.",
+    "summary": "This project involved creating a Power BI dashboard to assess sales performance across multiple Walmart stores between February 2010 and October 2012. It focused on understanding sales trends during the recovery phase following the 2008 recession by importing, modeling, and visualizing sales data with DAX measures and conditional columns.",
+    "businessProblem": "Walmart stores, like many discount retailers, experienced fluctuating sales during the recovery period after the 2008 recession. The challenge was to analyze and visualize year-over-year sales data to identify trends and factors impacting store performance across different locations and time periods.",
     "objectives": [
-      "Analyze year-over-year sales trends across multiple Walmart stores",
-      "Incorporate external factors such as holidays and unemployment rates into sales analysis",
-      "Develop an interactive Power BI dashboard for insightful visualization and decision making"
+      "Import and clean Walmart sales data for analysis in Power BI",
+      "Create a time-based data model with calendar and relationship tables",
+      "Develop DAX measures and visualizations to track sales trends and impacts"
     ],
     "tools": [
       "Power BI Desktop",
       "DAX (Data Analysis Expressions)",
-      "Excel",
+      "Excel (CSV data handling)",
       "Power Query Editor",
-      "CSV Data Files"
+      "Power BI Cloud (for deployment)"
     ],
     "skills": [
-      "Data Import and Transformation",
-      "DAX Measure Creation",
-      "Data Modeling and Relationships",
-      "Conditional Column Creation",
-      "Custom Sorting in Power BI",
-      "Dashboard Design and Visualization",
-      "Time Series Analysis",
-      "Business Data Interpretation"
+      "Data import and transformation",
+      "Data modeling and relationship management",
+      "DAX formula creation",
+      "Dashboard design and visualization",
+      "Time intelligence calculations",
+      "Conditional column creation",
+      "Sorting and custom column management",
+      "Business data analysis"
     ],
     "workflow": [
       "Import Walmart sales CSV data into Power BI Desktop",
       "Create calendar and refresh date tables using DAX",
       "Establish relationships between sales and calendar tables",
-      "Add conditional columns for holiday flags and unemployment rates",
-      "Develop DAX measures to calculate total, average, and year-over-year sales",
-      "Design and customize the dashboard with logos and titles",
-      "Apply sorting and formatting for clear data presentation",
-      "Deploy the final dashboard to the Power BI Cloud"
+      "Add conditional columns for holiday and unemployment flags",
+      "Develop DAX measures to calculate total sales, average sales, and year-over-year sales changes"
     ],
     "keyInsights": [
-      "Sales showed variability influenced by holiday weeks and economic conditions",
-      "Year-over-year sales trends highlighted recovery patterns post-recession",
-      "Unemployment rates correlated with fluctuations in store sales performance",
-      "Custom sorting and conditional columns enhanced clarity of temporal sales patterns"
+      "Sales trends showed variability across the 45 Walmart stores during the post-recession period",
+      "Holiday weeks and unemployment rates were key factors influencing sales performance",
+      "Year-over-year sales comparisons highlighted recovery patterns and store-specific fluctuations",
+      "Custom sorting and conditional columns improved clarity and accuracy of temporal sales analysis"
     ],
     "businessImpact": [
-      "Provided Walmart management with clear visibility into sales trends during economic recovery",
-      "Enabled data-driven decisions to optimize store performance during critical periods",
-      "Improved understanding of external factors affecting retail sales for strategic planning"
+      "Enabled Walmart to better understand sales dynamics during economic recovery",
+      "Provided actionable insights to optimize store operations and marketing strategies",
+      "Improved decision-making through interactive and comprehensive sales dashboards"
     ],
     "imageUrl": "https://app.colaberry.com/uploads/ProjectRequest/182/Walmart_es.gif"
   }
