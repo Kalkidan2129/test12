@@ -3,21 +3,21 @@
 
 ## Project Overview
 
-This project involved creating a Power BI dashboard to assess sales performance across multiple Walmart stores between February 2010 and October 2012. It focused on understanding sales trends during the recovery phase following the 2008 recession by importing, modeling, and visualizing sales data with DAX measures and conditional columns.
+This project involved building an interactive Power BI dashboard to assess sales performance of Walmart stores between February 2010 and October 2012. The analysis focused on understanding sales trends during the recovery phase following the 2008 recession. Key metrics and DAX measures were created to track total sales, average sales, and year-over-year growth.
 
 ---
 
 ## Business Problem
 
-Walmart stores, like many discount retailers, experienced fluctuating sales during the recovery period after the 2008 recession. The challenge was to analyze and visualize year-over-year sales data to identify trends and factors impacting store performance across different locations and time periods.
+Walmart stores, like many discount retailers, experienced fluctuating sales during the recovery from the 2008 recession. The business needed insights into sales trends to identify performance drivers and areas for improvement across multiple locations. Understanding these patterns was critical to optimizing inventory and marketing strategies.
 
 ---
 
 ## Objective
 
-- Import and clean Walmart sales data for analysis in Power BI
-- Create a time-based data model with calendar and relationship tables
-- Develop DAX measures and visualizations to track sales trends and impacts
+- Import and clean sales data from multiple Walmart stores for analysis
+- Create a date/calendar table and establish relationships for time-based analysis
+- Develop DAX measures and visualizations to track sales trends and year-over-year growth
 
 ---
 
@@ -25,8 +25,8 @@ Walmart stores, like many discount retailers, experienced fluctuating sales duri
 
 - Power BI Desktop
 - DAX (Data Analysis Expressions)
-- Excel (CSV data handling)
-- Power Query Editor
+- Excel
+- CSV data files
 - Power BI Cloud (for deployment)
 
 ---
@@ -34,19 +34,19 @@ Walmart stores, like many discount retailers, experienced fluctuating sales duri
 ## Project Workflow
 
 - Import Walmart sales CSV data into Power BI Desktop
-- Create calendar and refresh date tables using DAX
-- Establish relationships between sales and calendar tables
-- Add conditional columns for holiday and unemployment flags
-- Develop DAX measures to calculate total sales, average sales, and year-over-year sales changes
+- Create and refresh calendar/date tables for time intelligence
+- Establish relationships between sales data and calendar tables
+- Create conditional columns and custom sorting for categorical data
+- Develop DAX measures to calculate total sales, average sales, and YOY growth
 
 ---
 
 ## Key Insights
 
-- Sales trends showed variability across the 45 Walmart stores during the post-recession period
-- Holiday weeks and unemployment rates were key factors influencing sales performance
-- Year-over-year sales comparisons highlighted recovery patterns and store-specific fluctuations
-- Custom sorting and conditional columns improved clarity and accuracy of temporal sales analysis
+- Sales across Walmart stores showed variability during the post-recession recovery period
+- Year-over-year sales growth metrics highlighted stores with stronger recovery trends
+- Custom sorting and conditional columns improved clarity in sales pattern analysis
+- Time-based analysis enabled identification of seasonal sales fluctuations
 
 ---
 
@@ -58,9 +58,9 @@ Walmart stores, like many discount retailers, experienced fluctuating sales duri
 
 ## Business Impact
 
-- Enabled Walmart to better understand sales dynamics during economic recovery
-- Provided actionable insights to optimize store operations and marketing strategies
-- Improved decision-making through interactive and comprehensive sales dashboards
+- Provided Walmart management with actionable insights on store-level sales performance
+- Enabled data-driven strategies to optimize inventory and marketing efforts
+- Improved reporting efficiency through automated dashboards and dynamic measures
 
 ---
 
